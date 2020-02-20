@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-alpine
 
 ENV REVIEWDOG_VERSION=v0.9.17
 
