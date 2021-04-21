@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-alpine
 
-ENV REVIEWDOG_VERSION=v0.9.17
+ENV REVIEWDOG_VERSION=v0.11.0
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 
